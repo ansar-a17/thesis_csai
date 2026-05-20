@@ -1,0 +1,103 @@
+Using device: cuda
+SLURM job id: 45107
+Train fraction: 1.0
+Eval fractions: [0.1, 0.25, 0.5]
+Checkpoint selection fraction: 0.5
+Loading datasets...
+Train samples: 9624, Val samples: 3696
+Number of classes: 101
+Loading pre-trained TimeSformer (Kinetics-400)...
+Trying TimeSformer weights from revision: main (safetensors)
+
+Starting training...
+
+Epoch 1/100
+Train Loss: 0.6218, Train Top-1: 85.90%, Train Top-5: 95.91%
+Val Loss: 1.2023, Val Top-1: 73.38%, Val Top-5: 89.69%, Val Macro F1: 0.7364
+Epoch Time: 18.22 min
+
+Validation loss improved to 1.2023. Resetting early-stopping counter.
+Saved best model to: /home/u257295/Thesis/outputs/timesformer_full_to_limited_job45107/best_timesformer_model.pth (Top-1: 73.38%)
+
+Epoch 2/100
+Train Loss: 0.1667, Train Top-1: 95.37%, Train Top-5: 99.63%
+Val Loss: 1.0562, Val Top-1: 77.14%, Val Top-5: 91.10%, Val Macro F1: 0.7666
+Epoch Time: 18.22 min
+
+Validation loss improved to 1.0562. Resetting early-stopping counter.
+Saved best model to: /home/u257295/Thesis/outputs/timesformer_full_to_limited_job45107/best_timesformer_model.pth (Top-1: 77.14%)
+
+Epoch 3/100
+Train Loss: 0.1903, Train Top-1: 94.94%, Train Top-5: 99.28%
+Val Loss: 1.2654, Val Top-1: 74.08%, Val Top-5: 88.47%, Val Macro F1: 0.7296
+Epoch Time: 18.23 min
+
+Validation loss did not improve for 1/10 epochs.
+Epoch 4/100
+Train Loss: 0.1013, Train Top-1: 97.33%, Train Top-5: 99.80%
+Val Loss: 1.6743, Val Top-1: 65.48%, Val Top-5: 85.63%, Val Macro F1: 0.6485
+Epoch Time: 18.24 min
+
+Validation loss did not improve for 2/10 epochs.
+Epoch 5/100
+Train Loss: 0.1222, Train Top-1: 96.96%, Train Top-5: 99.63%
+Val Loss: 1.6515, Val Top-1: 64.94%, Val Top-5: 85.61%, Val Macro F1: 0.6514
+Epoch Time: 18.28 min
+
+Validation loss did not improve for 3/10 epochs.
+Epoch 6/100
+Train Loss: 0.1294, Train Top-1: 96.70%, Train Top-5: 99.58%
+Val Loss: 1.5284, Val Top-1: 67.91%, Val Top-5: 86.55%, Val Macro F1: 0.6747
+Epoch Time: 18.29 min
+
+Validation loss did not improve for 4/10 epochs.
+Epoch 7/100
+Train Loss: 0.0810, Train Top-1: 97.79%, Train Top-5: 99.79%
+Val Loss: 1.7492, Val Top-1: 65.96%, Val Top-5: 84.85%, Val Macro F1: 0.6589
+Epoch Time: 18.36 min
+
+Validation loss did not improve for 5/10 epochs.
+Epoch 8/100
+Train Loss: 0.0824, Train Top-1: 97.79%, Train Top-5: 99.84%
+Val Loss: 1.7002, Val Top-1: 66.02%, Val Top-5: 84.88%, Val Macro F1: 0.6566
+Epoch Time: 18.21 min
+
+Validation loss did not improve for 6/10 epochs.
+Epoch 9/100
+Train Loss: 0.0915, Train Top-1: 97.61%, Train Top-5: 99.75%
+Val Loss: 1.5013, Val Top-1: 69.91%, Val Top-5: 87.34%, Val Macro F1: 0.6912
+Epoch Time: 18.09 min
+
+Validation loss did not improve for 7/10 epochs.
+Epoch 10/100
+Train Loss: 0.0760, Train Top-1: 97.98%, Train Top-5: 99.76%
+Val Loss: 1.7244, Val Top-1: 65.34%, Val Top-5: 84.36%, Val Macro F1: 0.6414
+Epoch Time: 17.90 min
+
+Validation loss did not improve for 8/10 epochs.
+Epoch 11/100
+Train Loss: 0.0750, Train Top-1: 97.95%, Train Top-5: 99.81%
+Val Loss: 2.0206, Val Top-1: 61.42%, Val Top-5: 82.90%, Val Macro F1: 0.5978
+Epoch Time: 17.95 min
+
+Validation loss did not improve for 9/10 epochs.
+Epoch 12/100
+Train Loss: 0.0805, Train Top-1: 97.86%, Train Top-5: 99.63%
+Val Loss: 1.6211, Val Top-1: 68.70%, Val Top-5: 85.82%, Val Macro F1: 0.6729
+Epoch Time: 18.04 min
+
+Validation loss did not improve for 10/10 epochs.
+Early stopping triggered: validation loss has not improved for 10 consecutive epochs.
+Training complete. Loading best checkpoint for final temporal evaluation...
+
+Evaluating temporal fraction=0.1
+Fraction 0.1: Top-1=70.37% | Top-5=88.34% | Macro P/R/F1=0.7559/0.6968/0.6980
+
+Evaluating temporal fraction=0.25
+Fraction 0.25: Top-1=74.81% | Top-5=89.85% | Macro P/R/F1=0.7875/0.7418/0.7407
+
+Evaluating temporal fraction=0.5
+Fraction 0.5: Top-1=77.14% | Top-5=91.10% | Macro P/R/F1=0.8034/0.7660/0.7666
+
+Final metrics written to: /home/u257295/Thesis/outputs/timesformer_full_to_limited_job45107/metrics_summary_45107.json
+Best model checkpoint: /home/u257295/Thesis/outputs/timesformer_full_to_limited_job45107/best_timesformer_model.pth

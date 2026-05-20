@@ -1,0 +1,525 @@
+Using device: cuda
+SLURM job id: 44325
+Train fraction: 0.25
+Eval fractions: [0.25]
+Checkpoint selection fraction: 0.25
+Loading datasets...
+Train samples: 9537, Val samples: 3783
+Number of classes: 101
+Loading pre-trained R3D-18 (Kinetics-400)...
+
+Starting training...
+
+Epoch 1/100
+Train Loss: 2.2535, Train Top-1: 54.23%, Train Top-5: 77.14%
+Val Loss: 1.3784, Val Top-1: 66.40%, Val Top-5: 87.18%, Val Macro F1: 0.6447
+Epoch Time: 9.82 min
+
+Saved best model to: /home/u257295/Thesis/outputs/resnet_f0.25_job44325/best_resnet_model.pth (Top-1: 66.40%)
+
+Epoch 2/100
+Train Loss: 0.8343, Train Top-1: 82.93%, Train Top-5: 96.37%
+Val Loss: 1.4568, Val Top-1: 68.07%, Val Top-5: 88.26%, Val Macro F1: 0.6708
+Epoch Time: 7.58 min
+
+Saved best model to: /home/u257295/Thesis/outputs/resnet_f0.25_job44325/best_resnet_model.pth (Top-1: 68.07%)
+
+Epoch 3/100
+Train Loss: 0.4898, Train Top-1: 89.26%, Train Top-5: 98.24%
+Val Loss: 1.5714, Val Top-1: 66.88%, Val Top-5: 86.41%, Val Macro F1: 0.6616
+Epoch Time: 7.53 min
+
+Epoch 4/100
+Train Loss: 0.3228, Train Top-1: 93.03%, Train Top-5: 98.90%
+Val Loss: 1.4895, Val Top-1: 68.94%, Val Top-5: 87.10%, Val Macro F1: 0.6816
+Epoch Time: 7.66 min
+
+Saved best model to: /home/u257295/Thesis/outputs/resnet_f0.25_job44325/best_resnet_model.pth (Top-1: 68.94%)
+
+Epoch 5/100
+Train Loss: 0.2663, Train Top-1: 93.92%, Train Top-5: 99.06%
+Val Loss: 1.6391, Val Top-1: 68.28%, Val Top-5: 85.57%, Val Macro F1: 0.6742
+Epoch Time: 7.72 min
+
+Epoch 6/100
+Train Loss: 0.1996, Train Top-1: 95.29%, Train Top-5: 99.38%
+Val Loss: 1.7751, Val Top-1: 67.83%, Val Top-5: 85.38%, Val Macro F1: 0.6722
+Epoch Time: 7.70 min
+
+Epoch 7/100
+Train Loss: 0.2037, Train Top-1: 95.52%, Train Top-5: 99.28%
+Val Loss: 1.7736, Val Top-1: 68.46%, Val Top-5: 86.25%, Val Macro F1: 0.6794
+Epoch Time: 9.07 min
+
+Epoch 8/100
+Train Loss: 0.1709, Train Top-1: 95.78%, Train Top-5: 99.38%
+Val Loss: 1.8194, Val Top-1: 68.57%, Val Top-5: 86.65%, Val Macro F1: 0.6801
+Epoch Time: 9.54 min
+
+Epoch 9/100
+Train Loss: 0.1643, Train Top-1: 96.12%, Train Top-5: 99.40%
+Val Loss: 1.9379, Val Top-1: 65.37%, Val Top-5: 85.41%, Val Macro F1: 0.6491
+Epoch Time: 9.97 min
+
+Epoch 10/100
+Train Loss: 0.1545, Train Top-1: 96.34%, Train Top-5: 99.47%
+Val Loss: 1.8197, Val Top-1: 68.49%, Val Top-5: 85.04%, Val Macro F1: 0.6763
+Epoch Time: 8.80 min
+
+Epoch 11/100
+Train Loss: 0.1237, Train Top-1: 97.04%, Train Top-5: 99.51%
+Val Loss: 1.8079, Val Top-1: 66.24%, Val Top-5: 84.25%, Val Macro F1: 0.6568
+Epoch Time: 9.06 min
+
+Epoch 12/100
+Train Loss: 0.1290, Train Top-1: 96.84%, Train Top-5: 99.54%
+Val Loss: 1.9316, Val Top-1: 66.93%, Val Top-5: 84.85%, Val Macro F1: 0.6603
+Epoch Time: 8.37 min
+
+Epoch 13/100
+Train Loss: 0.1219, Train Top-1: 96.95%, Train Top-5: 99.57%
+Val Loss: 2.0014, Val Top-1: 64.97%, Val Top-5: 83.48%, Val Macro F1: 0.6445
+Epoch Time: 8.37 min
+
+Epoch 14/100
+Train Loss: 0.1047, Train Top-1: 97.56%, Train Top-5: 99.57%
+Val Loss: 2.0211, Val Top-1: 64.90%, Val Top-5: 84.69%, Val Macro F1: 0.6497
+Epoch Time: 10.48 min
+
+Epoch 15/100
+Train Loss: 0.1009, Train Top-1: 97.64%, Train Top-5: 99.56%
+Val Loss: 2.1193, Val Top-1: 63.15%, Val Top-5: 80.94%, Val Macro F1: 0.6280
+Epoch Time: 8.86 min
+
+Epoch 16/100
+Train Loss: 0.1040, Train Top-1: 97.40%, Train Top-5: 99.63%
+Val Loss: 2.1563, Val Top-1: 64.58%, Val Top-5: 82.53%, Val Macro F1: 0.6406
+Epoch Time: 8.70 min
+
+Epoch 17/100
+Train Loss: 0.1091, Train Top-1: 97.41%, Train Top-5: 99.49%
+Val Loss: 2.1967, Val Top-1: 63.15%, Val Top-5: 82.26%, Val Macro F1: 0.6268
+Epoch Time: 8.68 min
+
+Epoch 18/100
+Train Loss: 0.0968, Train Top-1: 97.67%, Train Top-5: 99.52%
+Val Loss: 2.0703, Val Top-1: 64.71%, Val Top-5: 83.66%, Val Macro F1: 0.6402
+Epoch Time: 8.38 min
+
+Epoch 19/100
+Train Loss: 0.0870, Train Top-1: 97.78%, Train Top-5: 99.65%
+Val Loss: 2.1658, Val Top-1: 64.63%, Val Top-5: 84.48%, Val Macro F1: 0.6464
+Epoch Time: 8.43 min
+
+Epoch 20/100
+Train Loss: 0.0951, Train Top-1: 97.70%, Train Top-5: 99.54%
+Val Loss: 1.9625, Val Top-1: 65.87%, Val Top-5: 84.17%, Val Macro F1: 0.6497
+Epoch Time: 8.34 min
+
+Epoch 21/100
+Train Loss: 0.0874, Train Top-1: 97.86%, Train Top-5: 99.63%
+Val Loss: 2.1154, Val Top-1: 65.11%, Val Top-5: 83.29%, Val Macro F1: 0.6434
+Epoch Time: 10.41 min
+
+Epoch 22/100
+Train Loss: 0.0734, Train Top-1: 98.11%, Train Top-5: 99.75%
+Val Loss: 2.1085, Val Top-1: 63.84%, Val Top-5: 83.98%, Val Macro F1: 0.6297
+Epoch Time: 6.25 min
+
+Epoch 23/100
+Train Loss: 0.0792, Train Top-1: 98.09%, Train Top-5: 99.57%
+Val Loss: 2.2769, Val Top-1: 60.72%, Val Top-5: 80.41%, Val Macro F1: 0.6010
+Epoch Time: 5.14 min
+
+Epoch 24/100
+Train Loss: 0.0685, Train Top-1: 98.39%, Train Top-5: 99.71%
+Val Loss: 2.2937, Val Top-1: 62.62%, Val Top-5: 82.18%, Val Macro F1: 0.6162
+Epoch Time: 5.93 min
+
+Epoch 25/100
+Train Loss: 0.0736, Train Top-1: 98.26%, Train Top-5: 99.64%
+Val Loss: 2.3025, Val Top-1: 63.42%, Val Top-5: 82.37%, Val Macro F1: 0.6257
+Epoch Time: 9.51 min
+
+Epoch 26/100
+Train Loss: 0.0703, Train Top-1: 98.29%, Train Top-5: 99.67%
+Val Loss: 2.3544, Val Top-1: 62.86%, Val Top-5: 80.89%, Val Macro F1: 0.6185
+Epoch Time: 9.66 min
+
+Epoch 27/100
+Train Loss: 0.0624, Train Top-1: 98.62%, Train Top-5: 99.70%
+Val Loss: 2.3155, Val Top-1: 62.60%, Val Top-5: 81.55%, Val Macro F1: 0.6144
+Epoch Time: 8.74 min
+
+Epoch 28/100
+Train Loss: 0.0606, Train Top-1: 98.67%, Train Top-5: 99.67%
+Val Loss: 2.2052, Val Top-1: 65.48%, Val Top-5: 82.58%, Val Macro F1: 0.6430
+Epoch Time: 8.49 min
+
+Epoch 29/100
+Train Loss: 0.0587, Train Top-1: 98.46%, Train Top-5: 99.74%
+Val Loss: 2.2929, Val Top-1: 63.07%, Val Top-5: 82.29%, Val Macro F1: 0.6288
+Epoch Time: 10.57 min
+
+Epoch 30/100
+Train Loss: 0.0586, Train Top-1: 98.53%, Train Top-5: 99.75%
+Val Loss: 2.2817, Val Top-1: 64.23%, Val Top-5: 82.10%, Val Macro F1: 0.6343
+Epoch Time: 8.73 min
+
+Epoch 31/100
+Train Loss: 0.0504, Train Top-1: 98.73%, Train Top-5: 99.80%
+Val Loss: 2.4258, Val Top-1: 63.39%, Val Top-5: 81.87%, Val Macro F1: 0.6311
+Epoch Time: 8.60 min
+
+Epoch 32/100
+Train Loss: 0.0607, Train Top-1: 98.59%, Train Top-5: 99.65%
+Val Loss: 2.4272, Val Top-1: 63.55%, Val Top-5: 81.55%, Val Macro F1: 0.6277
+Epoch Time: 8.56 min
+
+Epoch 33/100
+Train Loss: 0.0467, Train Top-1: 98.86%, Train Top-5: 99.73%
+Val Loss: 2.2650, Val Top-1: 65.32%, Val Top-5: 83.61%, Val Macro F1: 0.6482
+Epoch Time: 9.08 min
+
+Epoch 34/100
+Train Loss: 0.0520, Train Top-1: 98.71%, Train Top-5: 99.77%
+Val Loss: 2.2200, Val Top-1: 65.69%, Val Top-5: 83.51%, Val Macro F1: 0.6437
+Epoch Time: 8.81 min
+
+Epoch 35/100
+Train Loss: 0.0459, Train Top-1: 98.87%, Train Top-5: 99.80%
+Val Loss: 2.1567, Val Top-1: 66.22%, Val Top-5: 83.27%, Val Macro F1: 0.6510
+Epoch Time: 8.31 min
+
+Epoch 36/100
+Train Loss: 0.0454, Train Top-1: 98.79%, Train Top-5: 99.80%
+Val Loss: 2.5043, Val Top-1: 62.52%, Val Top-5: 80.07%, Val Macro F1: 0.6059
+Epoch Time: 10.47 min
+
+Epoch 37/100
+Train Loss: 0.0431, Train Top-1: 98.94%, Train Top-5: 99.78%
+Val Loss: 2.5318, Val Top-1: 62.94%, Val Top-5: 81.55%, Val Macro F1: 0.6209
+Epoch Time: 7.43 min
+
+Epoch 38/100
+Train Loss: 0.0391, Train Top-1: 99.08%, Train Top-5: 99.75%
+Val Loss: 2.3116, Val Top-1: 65.16%, Val Top-5: 82.87%, Val Macro F1: 0.6347
+Epoch Time: 6.33 min
+
+Epoch 39/100
+Train Loss: 0.0431, Train Top-1: 98.98%, Train Top-5: 99.77%
+Val Loss: 2.3912, Val Top-1: 63.81%, Val Top-5: 80.65%, Val Macro F1: 0.6231
+Epoch Time: 5.11 min
+
+Epoch 40/100
+Train Loss: 0.0335, Train Top-1: 99.16%, Train Top-5: 99.82%
+Val Loss: 2.3029, Val Top-1: 64.84%, Val Top-5: 82.05%, Val Macro F1: 0.6362
+Epoch Time: 6.28 min
+
+Epoch 41/100
+Train Loss: 0.0367, Train Top-1: 99.10%, Train Top-5: 99.81%
+Val Loss: 2.3162, Val Top-1: 65.16%, Val Top-5: 81.23%, Val Macro F1: 0.6341
+Epoch Time: 7.89 min
+
+Epoch 42/100
+Train Loss: 0.0462, Train Top-1: 98.82%, Train Top-5: 99.74%
+Val Loss: 2.4077, Val Top-1: 63.23%, Val Top-5: 81.79%, Val Macro F1: 0.6194
+Epoch Time: 7.78 min
+
+Epoch 43/100
+Train Loss: 0.0324, Train Top-1: 99.14%, Train Top-5: 99.88%
+Val Loss: 2.2768, Val Top-1: 65.37%, Val Top-5: 82.63%, Val Macro F1: 0.6372
+Epoch Time: 7.99 min
+
+Epoch 44/100
+Train Loss: 0.0288, Train Top-1: 99.31%, Train Top-5: 99.88%
+Val Loss: 2.3397, Val Top-1: 64.79%, Val Top-5: 82.61%, Val Macro F1: 0.6381
+Epoch Time: 9.36 min
+
+Epoch 45/100
+Train Loss: 0.0282, Train Top-1: 99.25%, Train Top-5: 99.90%
+Val Loss: 2.4186, Val Top-1: 62.57%, Val Top-5: 80.52%, Val Macro F1: 0.6179
+Epoch Time: 8.28 min
+
+Epoch 46/100
+Train Loss: 0.0374, Train Top-1: 98.99%, Train Top-5: 99.87%
+Val Loss: 2.4164, Val Top-1: 64.45%, Val Top-5: 81.34%, Val Macro F1: 0.6313
+Epoch Time: 7.80 min
+
+Epoch 47/100
+Train Loss: 0.0308, Train Top-1: 99.27%, Train Top-5: 99.85%
+Val Loss: 2.3847, Val Top-1: 63.89%, Val Top-5: 81.50%, Val Macro F1: 0.6298
+Epoch Time: 7.92 min
+
+Epoch 48/100
+Train Loss: 0.0286, Train Top-1: 99.27%, Train Top-5: 99.87%
+Val Loss: 2.3897, Val Top-1: 64.74%, Val Top-5: 83.14%, Val Macro F1: 0.6435
+Epoch Time: 7.89 min
+
+Epoch 49/100
+Train Loss: 0.0311, Train Top-1: 99.31%, Train Top-5: 99.82%
+Val Loss: 2.4613, Val Top-1: 63.02%, Val Top-5: 81.95%, Val Macro F1: 0.6328
+Epoch Time: 7.75 min
+
+Epoch 50/100
+Train Loss: 0.0219, Train Top-1: 99.49%, Train Top-5: 99.91%
+Val Loss: 2.2095, Val Top-1: 66.32%, Val Top-5: 83.72%, Val Macro F1: 0.6535
+Epoch Time: 7.61 min
+
+Epoch 51/100
+Train Loss: 0.0281, Train Top-1: 99.41%, Train Top-5: 99.83%
+Val Loss: 2.2949, Val Top-1: 65.32%, Val Top-5: 82.42%, Val Macro F1: 0.6469
+Epoch Time: 8.37 min
+
+Epoch 52/100
+Train Loss: 0.0269, Train Top-1: 99.29%, Train Top-5: 99.87%
+Val Loss: 2.4447, Val Top-1: 63.57%, Val Top-5: 81.84%, Val Macro F1: 0.6234
+Epoch Time: 9.08 min
+
+Epoch 53/100
+Train Loss: 0.0187, Train Top-1: 99.56%, Train Top-5: 99.93%
+Val Loss: 2.2516, Val Top-1: 66.09%, Val Top-5: 81.92%, Val Macro F1: 0.6497
+Epoch Time: 7.96 min
+
+Epoch 54/100
+Train Loss: 0.0210, Train Top-1: 99.50%, Train Top-5: 99.93%
+Val Loss: 2.2480, Val Top-1: 65.11%, Val Top-5: 82.42%, Val Macro F1: 0.6382
+Epoch Time: 8.92 min
+
+Epoch 55/100
+Train Loss: 0.0248, Train Top-1: 99.43%, Train Top-5: 99.92%
+Val Loss: 2.3126, Val Top-1: 64.97%, Val Top-5: 83.48%, Val Macro F1: 0.6426
+Epoch Time: 8.60 min
+
+Epoch 56/100
+Train Loss: 0.0181, Train Top-1: 99.56%, Train Top-5: 99.93%
+Val Loss: 2.3079, Val Top-1: 64.97%, Val Top-5: 82.79%, Val Macro F1: 0.6414
+Epoch Time: 8.49 min
+
+Epoch 57/100
+Train Loss: 0.0184, Train Top-1: 99.60%, Train Top-5: 99.94%
+Val Loss: 2.4737, Val Top-1: 62.99%, Val Top-5: 81.52%, Val Macro F1: 0.6209
+Epoch Time: 9.08 min
+
+Epoch 58/100
+Train Loss: 0.0168, Train Top-1: 99.62%, Train Top-5: 99.90%
+Val Loss: 2.4064, Val Top-1: 64.37%, Val Top-5: 82.16%, Val Macro F1: 0.6350
+Epoch Time: 8.56 min
+
+Epoch 59/100
+Train Loss: 0.0163, Train Top-1: 99.58%, Train Top-5: 99.94%
+Val Loss: 2.5057, Val Top-1: 64.29%, Val Top-5: 81.84%, Val Macro F1: 0.6326
+Epoch Time: 6.68 min
+
+Epoch 60/100
+Train Loss: 0.0140, Train Top-1: 99.65%, Train Top-5: 99.95%
+Val Loss: 2.3924, Val Top-1: 65.03%, Val Top-5: 82.98%, Val Macro F1: 0.6396
+Epoch Time: 6.80 min
+
+Epoch 61/100
+Train Loss: 0.0142, Train Top-1: 99.71%, Train Top-5: 99.93%
+Val Loss: 2.4743, Val Top-1: 63.81%, Val Top-5: 82.13%, Val Macro F1: 0.6339
+Epoch Time: 8.33 min
+
+Epoch 62/100
+Train Loss: 0.0163, Train Top-1: 99.65%, Train Top-5: 99.95%
+Val Loss: 2.4878, Val Top-1: 63.34%, Val Top-5: 81.97%, Val Macro F1: 0.6228
+Epoch Time: 8.58 min
+
+Epoch 63/100
+Train Loss: 0.0170, Train Top-1: 99.59%, Train Top-5: 99.90%
+Val Loss: 2.6754, Val Top-1: 61.43%, Val Top-5: 79.70%, Val Macro F1: 0.6053
+Epoch Time: 8.74 min
+
+Epoch 64/100
+Train Loss: 0.0137, Train Top-1: 99.58%, Train Top-5: 99.99%
+Val Loss: 2.6697, Val Top-1: 62.75%, Val Top-5: 81.44%, Val Macro F1: 0.6189
+Epoch Time: 8.68 min
+
+Epoch 65/100
+Train Loss: 0.0100, Train Top-1: 99.78%, Train Top-5: 99.98%
+Val Loss: 2.4241, Val Top-1: 63.79%, Val Top-5: 81.39%, Val Macro F1: 0.6301
+Epoch Time: 8.80 min
+
+Epoch 66/100
+Train Loss: 0.0141, Train Top-1: 99.70%, Train Top-5: 99.93%
+Val Loss: 2.4057, Val Top-1: 64.97%, Val Top-5: 83.66%, Val Macro F1: 0.6440
+Epoch Time: 6.67 min
+
+Epoch 67/100
+Train Loss: 0.0112, Train Top-1: 99.75%, Train Top-5: 99.95%
+Val Loss: 2.6256, Val Top-1: 62.44%, Val Top-5: 81.13%, Val Macro F1: 0.6210
+Epoch Time: 6.04 min
+
+Epoch 68/100
+Train Loss: 0.0110, Train Top-1: 99.82%, Train Top-5: 99.93%
+Val Loss: 2.4805, Val Top-1: 63.39%, Val Top-5: 81.73%, Val Macro F1: 0.6272
+Epoch Time: 8.61 min
+
+Epoch 69/100
+Train Loss: 0.0116, Train Top-1: 99.76%, Train Top-5: 99.94%
+Val Loss: 2.4566, Val Top-1: 64.63%, Val Top-5: 81.73%, Val Macro F1: 0.6344
+Epoch Time: 8.84 min
+
+Epoch 70/100
+Train Loss: 0.0114, Train Top-1: 99.78%, Train Top-5: 99.93%
+Val Loss: 2.4573, Val Top-1: 64.58%, Val Top-5: 82.58%, Val Macro F1: 0.6372
+Epoch Time: 8.98 min
+
+Epoch 71/100
+Train Loss: 0.0104, Train Top-1: 99.76%, Train Top-5: 99.97%
+Val Loss: 2.4416, Val Top-1: 65.13%, Val Top-5: 82.21%, Val Macro F1: 0.6399
+Epoch Time: 9.25 min
+
+Epoch 72/100
+Train Loss: 0.0107, Train Top-1: 99.77%, Train Top-5: 99.96%
+Val Loss: 2.2626, Val Top-1: 66.96%, Val Top-5: 83.08%, Val Macro F1: 0.6536
+Epoch Time: 8.87 min
+
+Epoch 73/100
+Train Loss: 0.0088, Train Top-1: 99.81%, Train Top-5: 99.96%
+Val Loss: 2.2309, Val Top-1: 66.59%, Val Top-5: 83.43%, Val Macro F1: 0.6514
+Epoch Time: 9.06 min
+
+Epoch 74/100
+Train Loss: 0.0096, Train Top-1: 99.84%, Train Top-5: 99.95%
+Val Loss: 2.3166, Val Top-1: 66.40%, Val Top-5: 82.79%, Val Macro F1: 0.6510
+Epoch Time: 9.10 min
+
+Epoch 75/100
+Train Loss: 0.0060, Train Top-1: 99.88%, Train Top-5: 99.99%
+Val Loss: 2.2800, Val Top-1: 65.40%, Val Top-5: 82.74%, Val Macro F1: 0.6444
+Epoch Time: 9.09 min
+
+Epoch 76/100
+Train Loss: 0.0080, Train Top-1: 99.83%, Train Top-5: 99.97%
+Val Loss: 2.2880, Val Top-1: 66.03%, Val Top-5: 82.79%, Val Macro F1: 0.6496
+Epoch Time: 10.19 min
+
+Epoch 77/100
+Train Loss: 0.0059, Train Top-1: 99.91%, Train Top-5: 99.98%
+Val Loss: 2.2679, Val Top-1: 66.56%, Val Top-5: 82.87%, Val Macro F1: 0.6541
+Epoch Time: 8.32 min
+
+Epoch 78/100
+Train Loss: 0.0077, Train Top-1: 99.90%, Train Top-5: 99.95%
+Val Loss: 2.1884, Val Top-1: 66.11%, Val Top-5: 83.14%, Val Macro F1: 0.6484
+Epoch Time: 6.17 min
+
+Epoch 79/100
+Train Loss: 0.0070, Train Top-1: 99.86%, Train Top-5: 99.95%
+Val Loss: 2.3926, Val Top-1: 66.27%, Val Top-5: 83.48%, Val Macro F1: 0.6522
+Epoch Time: 5.72 min
+
+Epoch 80/100
+Train Loss: 0.0060, Train Top-1: 99.88%, Train Top-5: 99.98%
+Val Loss: 2.1502, Val Top-1: 66.38%, Val Top-5: 83.03%, Val Macro F1: 0.6542
+Epoch Time: 6.15 min
+
+Epoch 81/100
+Train Loss: 0.0064, Train Top-1: 99.83%, Train Top-5: 99.97%
+Val Loss: 2.3353, Val Top-1: 65.64%, Val Top-5: 82.66%, Val Macro F1: 0.6459
+Epoch Time: 8.33 min
+
+Epoch 82/100
+Train Loss: 0.0064, Train Top-1: 99.86%, Train Top-5: 99.97%
+Val Loss: 2.2048, Val Top-1: 66.32%, Val Top-5: 83.74%, Val Macro F1: 0.6551
+Epoch Time: 8.39 min
+
+Epoch 83/100
+Train Loss: 0.0037, Train Top-1: 99.95%, Train Top-5: 100.00%
+Val Loss: 2.2056, Val Top-1: 66.48%, Val Top-5: 83.82%, Val Macro F1: 0.6579
+Epoch Time: 8.40 min
+
+Epoch 84/100
+Train Loss: 0.0061, Train Top-1: 99.83%, Train Top-5: 100.00%
+Val Loss: 2.1577, Val Top-1: 66.51%, Val Top-5: 83.66%, Val Macro F1: 0.6525
+Epoch Time: 8.73 min
+
+Epoch 85/100
+Train Loss: 0.0049, Train Top-1: 99.93%, Train Top-5: 99.99%
+Val Loss: 2.2315, Val Top-1: 65.74%, Val Top-5: 83.53%, Val Macro F1: 0.6469
+Epoch Time: 9.18 min
+
+Epoch 86/100
+Train Loss: 0.0063, Train Top-1: 99.88%, Train Top-5: 99.97%
+Val Loss: 2.1906, Val Top-1: 66.30%, Val Top-5: 83.64%, Val Macro F1: 0.6543
+Epoch Time: 9.20 min
+
+Epoch 87/100
+Train Loss: 0.0066, Train Top-1: 99.87%, Train Top-5: 99.98%
+Val Loss: 2.1818, Val Top-1: 66.88%, Val Top-5: 83.85%, Val Macro F1: 0.6579
+Epoch Time: 5.10 min
+
+Epoch 88/100
+Train Loss: 0.0052, Train Top-1: 99.88%, Train Top-5: 100.00%
+Val Loss: 2.2286, Val Top-1: 66.24%, Val Top-5: 84.06%, Val Macro F1: 0.6529
+Epoch Time: 4.95 min
+
+Epoch 89/100
+Train Loss: 0.0051, Train Top-1: 99.92%, Train Top-5: 99.97%
+Val Loss: 2.2104, Val Top-1: 66.27%, Val Top-5: 83.08%, Val Macro F1: 0.6519
+Epoch Time: 8.50 min
+
+Epoch 90/100
+Train Loss: 0.0051, Train Top-1: 99.93%, Train Top-5: 99.97%
+Val Loss: 2.2104, Val Top-1: 66.98%, Val Top-5: 83.77%, Val Macro F1: 0.6575
+Epoch Time: 9.21 min
+
+Epoch 91/100
+Train Loss: 0.0036, Train Top-1: 99.94%, Train Top-5: 99.99%
+Val Loss: 2.2052, Val Top-1: 66.51%, Val Top-5: 83.48%, Val Macro F1: 0.6519
+Epoch Time: 9.49 min
+
+Epoch 92/100
+Train Loss: 0.0055, Train Top-1: 99.94%, Train Top-5: 99.98%
+Val Loss: 2.2215, Val Top-1: 67.04%, Val Top-5: 83.64%, Val Macro F1: 0.6568
+Epoch Time: 9.95 min
+
+Epoch 93/100
+Train Loss: 0.0042, Train Top-1: 99.90%, Train Top-5: 99.98%
+Val Loss: 2.1322, Val Top-1: 67.09%, Val Top-5: 84.27%, Val Macro F1: 0.6586
+Epoch Time: 15.24 min
+
+Epoch 94/100
+Train Loss: 0.0038, Train Top-1: 99.95%, Train Top-5: 99.99%
+Val Loss: 2.2384, Val Top-1: 67.33%, Val Top-5: 83.64%, Val Macro F1: 0.6618
+Epoch Time: 7.94 min
+
+Epoch 95/100
+Train Loss: 0.0053, Train Top-1: 99.88%, Train Top-5: 99.97%
+Val Loss: 2.1209, Val Top-1: 66.53%, Val Top-5: 83.88%, Val Macro F1: 0.6522
+Epoch Time: 4.68 min
+
+Epoch 96/100
+Train Loss: 0.0038, Train Top-1: 99.93%, Train Top-5: 99.99%
+Val Loss: 2.2602, Val Top-1: 66.64%, Val Top-5: 83.03%, Val Macro F1: 0.6512
+Epoch Time: 11.52 min
+
+Epoch 97/100
+Train Loss: 0.0037, Train Top-1: 99.95%, Train Top-5: 100.00%
+Val Loss: 2.2471, Val Top-1: 67.06%, Val Top-5: 83.53%, Val Macro F1: 0.6582
+Epoch Time: 20.02 min
+
+Epoch 98/100
+Train Loss: 0.0048, Train Top-1: 99.91%, Train Top-5: 99.99%
+Val Loss: 2.2445, Val Top-1: 66.30%, Val Top-5: 83.88%, Val Macro F1: 0.6549
+Epoch Time: 18.39 min
+
+Epoch 99/100
+Train Loss: 0.0043, Train Top-1: 99.93%, Train Top-5: 100.00%
+Val Loss: 2.2317, Val Top-1: 66.98%, Val Top-5: 84.14%, Val Macro F1: 0.6556
+Epoch Time: 8.49 min
+
+Epoch 100/100
+Train Loss: 0.0049, Train Top-1: 99.90%, Train Top-5: 100.00%
+Val Loss: 2.2063, Val Top-1: 66.69%, Val Top-5: 83.82%, Val Macro F1: 0.6574
+Epoch Time: 4.63 min
+
+Training complete. Loading best checkpoint for final temporal evaluation...
+
+Evaluating temporal fraction=0.25
+Fraction 0.25: Top-1=68.94% | Top-5=87.10% | Macro P/R/F1=0.7198/0.6888/0.6816
+
+Final metrics written to: /home/u257295/Thesis/outputs/resnet_f0.25_job44325/metrics_summary_44325.json
+Best model checkpoint: /home/u257295/Thesis/outputs/resnet_f0.25_job44325/best_resnet_model.pth

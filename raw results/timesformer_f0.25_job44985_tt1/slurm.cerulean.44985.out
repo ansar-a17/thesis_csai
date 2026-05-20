@@ -1,0 +1,91 @@
+Using device: cuda
+SLURM job id: 44985
+Train fraction: 0.25
+Eval fractions: [0.25]
+Checkpoint selection fraction: 0.25
+Loading datasets...
+Train samples: 9537, Val samples: 3783
+Number of classes: 101
+Loading pre-trained TimeSformer (Kinetics-400)...
+Trying TimeSformer weights from revision: main (safetensors)
+
+Starting training...
+
+Epoch 1/100
+Train Loss: 0.7139, Train Top-1: 83.34%, Train Top-5: 95.05%
+Val Loss: 1.1895, Val Top-1: 71.42%, Val Top-5: 90.03%, Val Macro F1: 0.7035
+Epoch Time: 18.02 min
+
+Validation loss improved to 1.1895. Resetting early-stopping counter.
+Saved best model to: /home/u257295/Thesis/outputs/timesformer_f0.25_job44985/best_timesformer_model.pth (Top-1: 71.42%)
+
+Epoch 2/100
+Train Loss: 0.2466, Train Top-1: 93.18%, Train Top-5: 99.26%
+Val Loss: 1.4217, Val Top-1: 69.36%, Val Top-5: 87.26%, Val Macro F1: 0.6840
+Epoch Time: 17.87 min
+
+Validation loss did not improve for 1/10 epochs.
+Epoch 3/100
+Train Loss: 0.1457, Train Top-1: 96.11%, Train Top-5: 99.70%
+Val Loss: 1.4024, Val Top-1: 70.61%, Val Top-5: 88.40%, Val Macro F1: 0.7003
+Epoch Time: 17.93 min
+
+Validation loss did not improve for 2/10 epochs.
+Epoch 4/100
+Train Loss: 0.1621, Train Top-1: 95.61%, Train Top-5: 99.43%
+Val Loss: 1.4413, Val Top-1: 70.66%, Val Top-5: 86.60%, Val Macro F1: 0.6973
+Epoch Time: 17.94 min
+
+Validation loss did not improve for 3/10 epochs.
+Epoch 5/100
+Train Loss: 0.0887, Train Top-1: 97.69%, Train Top-5: 99.75%
+Val Loss: 1.2960, Val Top-1: 74.07%, Val Top-5: 89.90%, Val Macro F1: 0.7316
+Epoch Time: 17.93 min
+
+Validation loss did not improve for 4/10 epochs.
+Saved best model to: /home/u257295/Thesis/outputs/timesformer_f0.25_job44985/best_timesformer_model.pth (Top-1: 74.07%)
+
+Epoch 6/100
+Train Loss: 0.1229, Train Top-1: 96.79%, Train Top-5: 99.61%
+Val Loss: 1.6812, Val Top-1: 66.56%, Val Top-5: 86.12%, Val Macro F1: 0.6772
+Epoch Time: 17.93 min
+
+Validation loss did not improve for 5/10 epochs.
+Epoch 7/100
+Train Loss: 0.1142, Train Top-1: 96.99%, Train Top-5: 99.71%
+Val Loss: 1.4760, Val Top-1: 70.90%, Val Top-5: 86.47%, Val Macro F1: 0.6992
+Epoch Time: 18.01 min
+
+Validation loss did not improve for 6/10 epochs.
+Epoch 8/100
+Train Loss: 0.0971, Train Top-1: 97.38%, Train Top-5: 99.75%
+Val Loss: 1.8296, Val Top-1: 63.28%, Val Top-5: 82.95%, Val Macro F1: 0.6293
+Epoch Time: 17.91 min
+
+Validation loss did not improve for 7/10 epochs.
+Epoch 9/100
+Train Loss: 0.0814, Train Top-1: 97.84%, Train Top-5: 99.79%
+Val Loss: 1.7452, Val Top-1: 65.61%, Val Top-5: 84.19%, Val Macro F1: 0.6491
+Epoch Time: 17.90 min
+
+Validation loss did not improve for 8/10 epochs.
+Epoch 10/100
+Train Loss: 0.0670, Train Top-1: 98.35%, Train Top-5: 99.80%
+Val Loss: 1.8119, Val Top-1: 64.05%, Val Top-5: 83.85%, Val Macro F1: 0.6468
+Epoch Time: 17.93 min
+
+Validation loss did not improve for 9/10 epochs.
+Epoch 11/100
+Train Loss: 0.0973, Train Top-1: 97.50%, Train Top-5: 99.66%
+Val Loss: 1.8306, Val Top-1: 65.11%, Val Top-5: 83.58%, Val Macro F1: 0.6429
+Epoch Time: 17.95 min
+
+Validation loss did not improve for 10/10 epochs.
+Early stopping triggered: validation loss has not improved for 10 consecutive epochs.
+Training complete. Loading best checkpoint for final temporal evaluation...
+
+Evaluating temporal fraction=0.25
+Fraction 0.25: Top-1=74.07% | Top-5=89.90% | Macro P/R/F1=0.7632/0.7373/0.7316
+
+Final metrics written to: /home/u257295/Thesis/outputs/timesformer_f0.25_job44985/metrics_summary_44985.json
+Best model checkpoint: /home/u257295/Thesis/outputs/timesformer_f0.25_job44985/best_timesformer_model.pth

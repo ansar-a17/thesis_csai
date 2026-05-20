@@ -1,0 +1,631 @@
+{
+  "slurm_job_id": "45106",
+  "checkpoint_path": "/home/u257295/Thesis/outputs/timesformer_f0.5_job45106/best_timesformer_model.pth",
+  "best_val_top1": 74.89177489177489,
+  "epochs_completed": 11,
+  "max_epochs": 100,
+  "early_stopping": {
+    "enabled": true,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "best_val_loss": 1.089265363102424,
+    "stopped_early": true
+  },
+  "temporal_conditions": {
+    "0.5": {
+      "top1": 74.89177489177489,
+      "top5": 90.5844155844156,
+      "macro_precision": 0.7678280050384696,
+      "macro_recall": 0.7459227259978095,
+      "macro_f1": 0.7414003334399296,
+      "per_class": {
+        "ApplyEyeMakeup": {
+          "precision": 0.7,
+          "recall": 0.9459459459459459,
+          "f1": 0.8045977011494254,
+          "support": 37
+        },
+        "ApplyLipstick": {
+          "precision": 0.9166666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.7719298245614035,
+          "support": 33
+        },
+        "Archery": {
+          "precision": 0.9444444444444444,
+          "recall": 0.4473684210526316,
+          "f1": 0.6071428571428572,
+          "support": 38
+        },
+        "BabyCrawling": {
+          "precision": 0.7575757575757576,
+          "recall": 0.6410256410256411,
+          "f1": 0.6944444444444444,
+          "support": 39
+        },
+        "BalanceBeam": {
+          "precision": 0.8,
+          "recall": 0.9032258064516129,
+          "f1": 0.8484848484848486,
+          "support": 31
+        },
+        "BandMarching": {
+          "precision": 0.5694444444444444,
+          "recall": 0.9534883720930233,
+          "f1": 0.7130434782608696,
+          "support": 43
+        },
+        "BaseballPitch": {
+          "precision": 0.6875,
+          "recall": 0.825,
+          "f1": 0.75,
+          "support": 40
+        },
+        "Basketball": {
+          "precision": 0.6976744186046512,
+          "recall": 0.7142857142857143,
+          "f1": 0.7058823529411765,
+          "support": 42
+        },
+        "BasketballDunk": {
+          "precision": 0.9512195121951219,
+          "recall": 0.975,
+          "f1": 0.9629629629629629,
+          "support": 40
+        },
+        "BenchPress": {
+          "precision": 0.9090909090909091,
+          "recall": 0.9523809523809523,
+          "f1": 0.9302325581395349,
+          "support": 42
+        },
+        "Biking": {
+          "precision": 0.8888888888888888,
+          "recall": 1.0,
+          "f1": 0.9411764705882353,
+          "support": 40
+        },
+        "Billiards": {
+          "precision": 0.9545454545454546,
+          "recall": 1.0,
+          "f1": 0.9767441860465117,
+          "support": 42
+        },
+        "BlowDryHair": {
+          "precision": 0.875,
+          "recall": 0.6176470588235294,
+          "f1": 0.7241379310344829,
+          "support": 34
+        },
+        "BlowingCandles": {
+          "precision": 0.5625,
+          "recall": 0.9642857142857143,
+          "f1": 0.7105263157894737,
+          "support": 28
+        },
+        "BodyWeightSquats": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "support": 30
+        },
+        "Bowling": {
+          "precision": 0.8958333333333334,
+          "recall": 1.0,
+          "f1": 0.945054945054945,
+          "support": 43
+        },
+        "BoxingPunchingBag": {
+          "precision": 0.975,
+          "recall": 0.8666666666666667,
+          "f1": 0.9176470588235294,
+          "support": 45
+        },
+        "BoxingSpeedBag": {
+          "precision": 0.8648648648648649,
+          "recall": 0.8648648648648649,
+          "f1": 0.8648648648648649,
+          "support": 37
+        },
+        "BreastStroke": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8275862068965517,
+          "f1": 0.8571428571428572,
+          "support": 29
+        },
+        "BrushingTeeth": {
+          "precision": 0.8260869565217391,
+          "recall": 0.5588235294117647,
+          "f1": 0.6666666666666667,
+          "support": 34
+        },
+        "CleanAndJerk": {
+          "precision": 0.9047619047619048,
+          "recall": 0.6333333333333333,
+          "f1": 0.7450980392156863,
+          "support": 30
+        },
+        "CliffDiving": {
+          "precision": 0.9310344827586207,
+          "recall": 0.7105263157894737,
+          "f1": 0.8059701492537312,
+          "support": 38
+        },
+        "CricketBowling": {
+          "precision": 0.7391304347826086,
+          "recall": 0.40476190476190477,
+          "f1": 0.523076923076923,
+          "support": 42
+        },
+        "CricketShot": {
+          "precision": 0.6363636363636364,
+          "recall": 0.813953488372093,
+          "f1": 0.7142857142857143,
+          "support": 43
+        },
+        "CuttingInKitchen": {
+          "precision": 0.5434782608695652,
+          "recall": 0.8928571428571429,
+          "f1": 0.6756756756756757,
+          "support": 28
+        },
+        "Diving": {
+          "precision": 0.8636363636363636,
+          "recall": 1.0,
+          "f1": 0.9268292682926829,
+          "support": 38
+        },
+        "Drumming": {
+          "precision": 0.7428571428571429,
+          "recall": 0.5416666666666666,
+          "f1": 0.6265060240963857,
+          "support": 48
+        },
+        "Fencing": {
+          "precision": 0.8518518518518519,
+          "recall": 0.8214285714285714,
+          "f1": 0.8363636363636364,
+          "support": 28
+        },
+        "FieldHockeyPenalty": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5333333333333333,
+          "f1": 0.5925925925925926,
+          "support": 30
+        },
+        "FloorGymnastics": {
+          "precision": 0.6923076923076923,
+          "recall": 0.972972972972973,
+          "f1": 0.8089887640449438,
+          "support": 37
+        },
+        "FrisbeeCatch": {
+          "precision": 0.6101694915254238,
+          "recall": 0.972972972972973,
+          "f1": 0.7500000000000001,
+          "support": 37
+        },
+        "FrontCrawl": {
+          "precision": 0.8372093023255814,
+          "recall": 0.9230769230769231,
+          "f1": 0.878048780487805,
+          "support": 39
+        },
+        "GolfSwing": {
+          "precision": 0.8823529411764706,
+          "recall": 0.75,
+          "f1": 0.8108108108108107,
+          "support": 40
+        },
+        "Haircut": {
+          "precision": 0.7714285714285715,
+          "recall": 0.7714285714285715,
+          "f1": 0.7714285714285715,
+          "support": 35
+        },
+        "HammerThrow": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 36
+        },
+        "Hammering": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 42
+        },
+        "HandstandPushups": {
+          "precision": 0.8,
+          "recall": 0.47619047619047616,
+          "f1": 0.5970149253731344,
+          "support": 42
+        },
+        "HandstandWalking": {
+          "precision": 0.2682926829268293,
+          "recall": 0.3548387096774194,
+          "f1": 0.3055555555555556,
+          "support": 31
+        },
+        "HeadMassage": {
+          "precision": 0.6101694915254238,
+          "recall": 0.8780487804878049,
+          "f1": 0.7200000000000001,
+          "support": 41
+        },
+        "HighJump": {
+          "precision": 0.5217391304347826,
+          "recall": 0.7741935483870968,
+          "f1": 0.6233766233766235,
+          "support": 31
+        },
+        "HorseRace": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 36
+        },
+        "HorseRiding": {
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1": 0.9523809523809523,
+          "support": 44
+        },
+        "HulaHoop": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6857142857142857,
+          "f1": 0.7619047619047619,
+          "support": 35
+        },
+        "IceDancing": {
+          "precision": 1.0,
+          "recall": 0.9523809523809523,
+          "f1": 0.975609756097561,
+          "support": 42
+        },
+        "JavelinThrow": {
+          "precision": 0.6875,
+          "recall": 0.6666666666666666,
+          "f1": 0.676923076923077,
+          "support": 33
+        },
+        "JugglingBalls": {
+          "precision": 0.95,
+          "recall": 0.6785714285714286,
+          "f1": 0.7916666666666667,
+          "support": 28
+        },
+        "JumpRope": {
+          "precision": 0.018867924528301886,
+          "recall": 0.023255813953488372,
+          "f1": 0.020833333333333332,
+          "support": 43
+        },
+        "JumpingJack": {
+          "precision": 0.0625,
+          "recall": 0.12903225806451613,
+          "f1": 0.08421052631578947,
+          "support": 31
+        },
+        "Kayaking": {
+          "precision": 0.9310344827586207,
+          "recall": 0.5869565217391305,
+          "f1": 0.7200000000000001,
+          "support": 46
+        },
+        "Knitting": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 34
+        },
+        "LongJump": {
+          "precision": 0.9545454545454546,
+          "recall": 0.6176470588235294,
+          "f1": 0.75,
+          "support": 34
+        },
+        "Lunges": {
+          "precision": 0.8,
+          "recall": 0.48484848484848486,
+          "f1": 0.6037735849056605,
+          "support": 33
+        },
+        "MilitaryParade": {
+          "precision": 0.8048780487804879,
+          "recall": 0.8918918918918919,
+          "f1": 0.8461538461538461,
+          "support": 37
+        },
+        "Mixing": {
+          "precision": 0.9259259259259259,
+          "recall": 0.8064516129032258,
+          "f1": 0.8620689655172414,
+          "support": 31
+        },
+        "MoppingFloor": {
+          "precision": 0.7058823529411765,
+          "recall": 0.75,
+          "f1": 0.7272727272727272,
+          "support": 32
+        },
+        "Nunchucks": {
+          "precision": 0.5217391304347826,
+          "recall": 0.32432432432432434,
+          "f1": 0.4,
+          "support": 37
+        },
+        "ParallelBars": {
+          "precision": 0.5869565217391305,
+          "recall": 0.9642857142857143,
+          "f1": 0.7297297297297297,
+          "support": 28
+        },
+        "PizzaTossing": {
+          "precision": 0.5454545454545454,
+          "recall": 0.20689655172413793,
+          "f1": 0.3,
+          "support": 29
+        },
+        "PlayingCello": {
+          "precision": 0.9591836734693877,
+          "recall": 1.0,
+          "f1": 0.9791666666666666,
+          "support": 47
+        },
+        "PlayingDaf": {
+          "precision": 0.9512195121951219,
+          "recall": 0.8666666666666667,
+          "f1": 0.9069767441860465,
+          "support": 45
+        },
+        "PlayingDhol": {
+          "precision": 0.9444444444444444,
+          "recall": 0.8292682926829268,
+          "f1": 0.883116883116883,
+          "support": 41
+        },
+        "PlayingFlute": {
+          "precision": 0.7727272727272727,
+          "recall": 0.8095238095238095,
+          "f1": 0.7906976744186046,
+          "support": 42
+        },
+        "PlayingGuitar": {
+          "precision": 1.0,
+          "recall": 0.875,
+          "f1": 0.9333333333333333,
+          "support": 48
+        },
+        "PlayingPiano": {
+          "precision": 1.0,
+          "recall": 0.7272727272727273,
+          "f1": 0.8421052631578948,
+          "support": 33
+        },
+        "PlayingSitar": {
+          "precision": 0.9387755102040817,
+          "recall": 1.0,
+          "f1": 0.968421052631579,
+          "support": 46
+        },
+        "PlayingTabla": {
+          "precision": 0.9354838709677419,
+          "recall": 0.9354838709677419,
+          "f1": 0.9354838709677419,
+          "support": 31
+        },
+        "PlayingViolin": {
+          "precision": 0.9473684210526315,
+          "recall": 0.6428571428571429,
+          "f1": 0.7659574468085106,
+          "support": 28
+        },
+        "PoleVault": {
+          "precision": 0.8717948717948718,
+          "recall": 0.7555555555555555,
+          "f1": 0.8095238095238095,
+          "support": 45
+        },
+        "PommelHorse": {
+          "precision": 0.9259259259259259,
+          "recall": 0.7142857142857143,
+          "f1": 0.8064516129032259,
+          "support": 35
+        },
+        "PullUps": {
+          "precision": 0.875,
+          "recall": 0.75,
+          "f1": 0.8076923076923077,
+          "support": 28
+        },
+        "Punch": {
+          "precision": 1.0,
+          "recall": 0.9555555555555556,
+          "f1": 0.9772727272727273,
+          "support": 45
+        },
+        "PushUps": {
+          "precision": 0.6551724137931034,
+          "recall": 0.6785714285714286,
+          "f1": 0.6666666666666666,
+          "support": 28
+        },
+        "Rafting": {
+          "precision": 0.868421052631579,
+          "recall": 0.9705882352941176,
+          "f1": 0.9166666666666667,
+          "support": 34
+        },
+        "RockClimbingIndoor": {
+          "precision": 0.9428571428571428,
+          "recall": 0.8918918918918919,
+          "f1": 0.9166666666666667,
+          "support": 37
+        },
+        "RopeClimbing": {
+          "precision": 0.5769230769230769,
+          "recall": 0.8571428571428571,
+          "f1": 0.689655172413793,
+          "support": 35
+        },
+        "Rowing": {
+          "precision": 1.0,
+          "recall": 0.8648648648648649,
+          "f1": 0.927536231884058,
+          "support": 37
+        },
+        "SalsaSpin": {
+          "precision": 0.38461538461538464,
+          "recall": 0.6060606060606061,
+          "f1": 0.47058823529411764,
+          "support": 33
+        },
+        "ShavingBeard": {
+          "precision": 0.9166666666666666,
+          "recall": 0.6875,
+          "f1": 0.7857142857142857,
+          "support": 48
+        },
+        "Shotput": {
+          "precision": 0.5882352941176471,
+          "recall": 0.2857142857142857,
+          "f1": 0.3846153846153846,
+          "support": 35
+        },
+        "SkateBoarding": {
+          "precision": 0.5892857142857143,
+          "recall": 0.9705882352941176,
+          "f1": 0.7333333333333333,
+          "support": 34
+        },
+        "Skiing": {
+          "precision": 0.9210526315789473,
+          "recall": 0.9210526315789473,
+          "f1": 0.9210526315789473,
+          "support": 38
+        },
+        "Skijet": {
+          "precision": 0.6363636363636364,
+          "recall": 1.0,
+          "f1": 0.7777777777777778,
+          "support": 28
+        },
+        "SkyDiving": {
+          "precision": 0.7948717948717948,
+          "recall": 0.9117647058823529,
+          "f1": 0.8493150684931507,
+          "support": 34
+        },
+        "SoccerJuggling": {
+          "precision": 0.5294117647058824,
+          "recall": 0.4186046511627907,
+          "f1": 0.4675324675324676,
+          "support": 43
+        },
+        "SoccerPenalty": {
+          "precision": 0.7948717948717948,
+          "recall": 0.8857142857142857,
+          "f1": 0.8378378378378378,
+          "support": 35
+        },
+        "StillRings": {
+          "precision": 1.0,
+          "recall": 0.7096774193548387,
+          "f1": 0.8301886792452831,
+          "support": 31
+        },
+        "SumoWrestling": {
+          "precision": 1.0,
+          "recall": 0.8787878787878788,
+          "f1": 0.9354838709677419,
+          "support": 33
+        },
+        "Surfing": {
+          "precision": 0.926829268292683,
+          "recall": 0.9743589743589743,
+          "f1": 0.9500000000000001,
+          "support": 39
+        },
+        "Swing": {
+          "precision": 0.7777777777777778,
+          "recall": 0.9722222222222222,
+          "f1": 0.8641975308641976,
+          "support": 36
+        },
+        "TableTennisShot": {
+          "precision": 0.7111111111111111,
+          "recall": 0.8,
+          "f1": 0.7529411764705882,
+          "support": 40
+        },
+        "TaiChi": {
+          "precision": 0.525,
+          "recall": 0.75,
+          "f1": 0.6176470588235295,
+          "support": 28
+        },
+        "TennisSwing": {
+          "precision": 0.8636363636363636,
+          "recall": 0.8444444444444444,
+          "f1": 0.853932584269663,
+          "support": 45
+        },
+        "ThrowDiscus": {
+          "precision": 0.36666666666666664,
+          "recall": 0.9166666666666666,
+          "f1": 0.5238095238095238,
+          "support": 36
+        },
+        "TrampolineJumping": {
+          "precision": 0.78125,
+          "recall": 0.7352941176470589,
+          "f1": 0.7575757575757576,
+          "support": 34
+        },
+        "Typing": {
+          "precision": 1.0,
+          "recall": 0.6129032258064516,
+          "f1": 0.76,
+          "support": 31
+        },
+        "UnevenBars": {
+          "precision": 0.9259259259259259,
+          "recall": 0.78125,
+          "f1": 0.847457627118644,
+          "support": 32
+        },
+        "VolleyballSpiking": {
+          "precision": 0.7419354838709677,
+          "recall": 0.8214285714285714,
+          "f1": 0.7796610169491526,
+          "support": 28
+        },
+        "WalkingWithDog": {
+          "precision": 0.8076923076923077,
+          "recall": 0.6176470588235294,
+          "f1": 0.7,
+          "support": 34
+        },
+        "WallPushups": {
+          "precision": 0.72,
+          "recall": 0.42857142857142855,
+          "f1": 0.5373134328358209,
+          "support": 42
+        },
+        "WritingOnBoard": {
+          "precision": 0.9767441860465116,
+          "recall": 1.0,
+          "f1": 0.988235294117647,
+          "support": 42
+        },
+        "YoYo": {
+          "precision": 0.7142857142857143,
+          "recall": 0.5555555555555556,
+          "f1": 0.6250000000000001,
+          "support": 36
+        }
+      }
+    }
+  }
+}

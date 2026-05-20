@@ -1,0 +1,21 @@
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/facebook/timesformer-base-finetuned-k400/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/timesformer-base-finetuned-k400/8aaf40ea7d3d282dcb0a5dea01a198320d15d6c0/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/facebook/timesformer-base-finetuned-k400 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/facebook/timesformer-base-finetuned-k400/commits/main "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/facebook/timesformer-base-finetuned-k400/discussions?p=0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/facebook/timesformer-base-finetuned-k400/commits/refs%2Fpr%2F5 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/facebook/timesformer-base-finetuned-k400/resolve/refs%2Fpr%2F5/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/facebook/timesformer-base-finetuned-k400/resolve/refs%2Fpr%2F5/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/249 [00:00<?, ?it/s]Loading weights:   1%|          | 3/249 [00:00<00:10, 23.29it/s]Loading weights:   7%|▋         | 17/249 [00:00<00:03, 65.40it/s]Loading weights:  14%|█▍        | 35/249 [00:00<00:02, 92.17it/s]Loading weights:  18%|█▊        | 45/249 [00:00<00:02, 94.48it/s]Loading weights:  24%|██▍       | 60/249 [00:00<00:02, 87.34it/s]Loading weights:  28%|██▊       | 69/249 [00:01<00:04, 38.12it/s]Loading weights:  31%|███       | 76/249 [00:01<00:05, 33.64it/s]Loading weights:  42%|████▏     | 105/249 [00:01<00:02, 59.91it/s]Loading weights:  46%|████▌     | 114/249 [00:01<00:02, 58.74it/s]Loading weights:  52%|█████▏    | 129/249 [00:02<00:01, 73.01it/s]Loading weights:  63%|██████▎   | 157/249 [00:02<00:01, 83.92it/s]Loading weights:  67%|██████▋   | 168/249 [00:02<00:01, 74.36it/s]Loading weights:  71%|███████▏  | 178/249 [00:02<00:01, 61.98it/s]Loading weights:  77%|███████▋  | 192/249 [00:03<00:01, 51.93it/s]Loading weights: 100%|██████████| 249/249 [00:03<00:00, 76.84it/s]
+[1mTimesformerForVideoClassification LOAD REPORT[0m from: facebook/timesformer-base-finetuned-k400
+Key               | Status   |                                                                                           
+------------------+----------+-------------------------------------------------------------------------------------------
+classifier.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([400]) vs model:torch.Size([101])          
+classifier.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([400, 768]) vs model:torch.Size([101, 768])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/home/u257295/Thesis/train_timesformer.py:451: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  best_ckpt = torch.load(checkpoint_path, map_location=device)

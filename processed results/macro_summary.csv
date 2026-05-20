@@ -1,0 +1,13 @@
+model,experiment,condition,top1,top5,macro_precision,macro_recall,macro_f1
+resnet,direct,0.1,65.8931,84.8566,0.6755,0.6573,0.6479
+resnet,direct,0.25,68.9447,88.0295,0.7132,0.6886,0.6811
+resnet,direct,0.5,70.5378,88.7624,0.7312,0.7033,0.6995
+resnet,full_to_limited,0.1,61.0018,82.5255,0.6619,0.6081,0.5994
+resnet,full_to_limited,0.25,64.7269,84.7959,0.6838,0.6465,0.6373
+resnet,full_to_limited,0.5,68.1303,86.9518,0.7151,0.6816,0.6726
+timesformer,direct,0.1,70.3467,88.5262,0.7493,0.6998,0.6979
+timesformer,direct,0.25,74.27,90.4261,0.7867,0.7404,0.739
+timesformer,direct,0.5,77.0368,91.7055,0.7957,0.7703,0.7669
+timesformer,full_to_limited,0.1,68.4266,87.4702,0.7472,0.6789,0.6839
+timesformer,full_to_limited,0.25,72.9048,89.7673,0.7754,0.7253,0.7275
+timesformer,full_to_limited,0.5,75.9703,91.329,0.7986,0.757,0.7586

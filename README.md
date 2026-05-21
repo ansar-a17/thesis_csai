@@ -15,7 +15,7 @@ All training and dataset loading code for my thesis.
 
 ### Dataset
 
-The UCF101 dataset and the train-test splits can be downloaded from [this website](https://www.crcv.ucf.edu/data/UCF101.php). The dataset was not included in the repository due to it's large size. All other materials needed to reproduce the results are here.
+The UCF101 dataset and the train-test splits can be downloaded from [this website](https://www.crcv.ucf.edu/data/UCF101.php). The dataset was not included in the repository due to it's large size. For the train-test splits, download the Action Recognition train-test splits.
 
 ### Environment
 
